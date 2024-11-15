@@ -12,6 +12,6 @@ You will also need the latest release of Android Studio from Android's website.
 
 Open a terminal, then run `chmod +x /path/to/setup.sh`.
 
-Then, `/path/to/setup.sh /path/to/android-studo-version-linux.tar.gz --home `.
+Then, `/path/to/setup.sh /path/to/android-studo-version-linux.tar.gz <Home Directory>`.
 
 Android Studio seems to pollute your `/home`, so please specify a folder where the home folder of the container will live. By default this is `$HOME/Distrobox/Android-Studio`.
